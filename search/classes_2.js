@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['errors_88',['Errors',['../classrion_1_1errors_1_1_errors.html',1,'rion::errors']]]
+  ['errors_89',['Errors',['../classrion_1_1errors_1_1_errors.html',1,'rion::errors']]]
 ];
