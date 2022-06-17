@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['uid_123',['uid',['../classrion_1_1helper_1_1_helper.html#a321ca89adbd2197ed2522e30f65a8c10',1,'rion::helper::Helper']]],
-  ['uninstall_124',['uninstall',['../classrion_1_1rion_1_1_rion.html#afdf42f01cfb5c82de3901d27cefceba3',1,'rion::rion::Rion']]],
-  ['update_125',['update',['../classrion_1_1rion_1_1_rion.html#a285511df035d1f4c81a244f9bef3e498',1,'rion::rion::Rion']]],
-  ['upgrade_126',['upgrade',['../classrion_1_1rion_1_1_rion.html#a61ef6801edfd1704bf38de365e188139',1,'rion::rion::Rion']]]
+  ['testsudo_130',['testsudo',['../classrion_1_1helper_1_1_helper.html#a48e3ff9a9b90c2b4330747450f25eb31',1,'rion::helper::Helper']]]
 ];
