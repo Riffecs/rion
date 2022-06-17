@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['handler_30',['handler',['../namespacerion.html#a552f5c1db58607961e64ff0c68793b30',1,'rion']]],
-  ['helper_31',['helper',['../classrion_1_1rion_1_1_rion.html#a0f1b5f621e18481d580199e443b765d5',1,'rion::rion::Rion']]],
-  ['helper_32',['Helper',['../classrion_1_1helper_1_1_helper.html',1,'rion::helper']]],
-  ['helper_2epy_33',['helper.py',['../helper_8py.html',1,'']]]
+  ['input_5fvalue_28',['input_value',['../classrion_1_1database_1_1_database.html#a0255760872aa2a3c6a98f4798c329706',1,'rion::database::Database']]],
+  ['install_29',['install',['../classrion_1_1rion_1_1_rion.html#a6fbc195817d976914ab190f92c08f00b',1,'rion::rion::Rion']]],
+  ['installer_30',['installer',['../classrion_1_1rion_1_1_rion.html#abc05538f283764c7bb8a5cebafd0f51e',1,'rion::rion::Rion']]]
 ];

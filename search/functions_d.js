@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['testsudo_149',['testsudo',['../classrion_1_1helper_1_1_helper.html#a48e3ff9a9b90c2b4330747450f25eb31',1,'rion::helper::Helper']]]
+  ['version_127',['version',['../classrion_1_1rion_1_1_rion.html#ad8ff2d6c93d397458b44321cdf035c3a',1,'rion::rion::Rion']]]
 ];

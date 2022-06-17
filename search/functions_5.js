@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['get_5fname_128',['get_name',['../classrion_1_1package_1_1_package.html#a67609e098c4d2fb2d211866f8c86a72d',1,'rion::package::Package']]],
-  ['get_5fvenv_129',['get_venv',['../classrion_1_1package_1_1_package.html#acd5d91afd0328bb47c98fdb11e612de5',1,'rion::package::Package']]],
-  ['get_5fversion_130',['get_version',['../classrion_1_1package_1_1_package.html#a75c0aa81f32f1f0a8755d7690d57a0b8',1,'rion::package::Package']]]
+  ['input_5fvalue_108',['input_value',['../classrion_1_1database_1_1_database.html#a0255760872aa2a3c6a98f4798c329706',1,'rion::database::Database']]],
+  ['install_109',['install',['../classrion_1_1rion_1_1_rion.html#a6fbc195817d976914ab190f92c08f00b',1,'rion::rion::Rion']]],
+  ['installer_110',['installer',['../classrion_1_1rion_1_1_rion.html#abc05538f283764c7bb8a5cebafd0f51e',1,'rion::rion::Rion']]]
 ];
