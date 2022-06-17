@@ -11,7 +11,7 @@ var searchData=
   ['readme_56',['README',['../md__r_e_a_d_m_e.html',1,'']]],
   ['readme_2emd_57',['Readme.md',['../package_2_readme_8md.html',1,'']]],
   ['readme_2emd_58',['README.md',['../_readme_8md.html',1,'']]],
-  ['remove_59',['remove',['../classrion_1_1rion_1_1_rion.html#ab3bcb7922354f8b3b793b0ad96695063',1,'rion::rion::Rion']]],
+  ['remove_59',['remove',['../classrion_1_1rion_1_1_rion.html#ac7db279b9dd89f5e1e7b346b4a53a6db',1,'rion::rion::Rion']]],
   ['rion_60',['rion',['../namespacerion.html',1,'rion'],['../classrion_1_1rion_1_1_rion.html#abd2eacab42e403ddbfcdda001bd985c6',1,'rion.rion.Rion.rion()'],['../namespacerion_1_1rion.html',1,'rion.rion']]],
   ['rion_61',['Rion',['../classrion_1_1rion_1_1_rion.html',1,'rion::rion']]],
   ['rion_2epy_62',['rion.py',['../rion_8py.html',1,'']]]
