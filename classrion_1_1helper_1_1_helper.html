@@ -86,6 +86,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ae04145b0830c3299c103620cb1131ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f9f8a243c2d6cfd009b099d4cde2ff7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a2f9f8a243c2d6cfd009b099d4cde2ff7">check</a> (str name, str version, str venv)</td></tr>
 <tr class="separator:a2f9f8a243c2d6cfd009b099d4cde2ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613574d3313d1abf7ded612873418a07"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a613574d3313d1abf7ded612873418a07">ping</a> (host)</td></tr>
+<tr class="separator:a613574d3313d1abf7ded612873418a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Helper Class
@@ -185,6 +187,34 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">Changes the paths from Linux to Windows.
 It's really only about the backslash.
+</pre> 
+</div>
+</div>
+<a id="a613574d3313d1abf7ded612873418a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a613574d3313d1abf7ded612873418a07">&#9670;&nbsp;</a></span>ping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def rion.helper.Helper.ping </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>host</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">Returns True if host (str) responds to a ping request.
+Remember that a host may not respond to a ping (ICMP) request even if the host name is valid.
 </pre> 
 </div>
 </div>
