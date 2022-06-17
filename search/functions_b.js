@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['search_127',['search',['../classrion_1_1rion_1_1_rion.html#aa7283289fe2ac2d0f41d28dcaa0630b5',1,'rion::rion::Rion']]],
-  ['server_128',['server',['../classrion_1_1rion_1_1_rion.html#ad1e4f2967114c66d170a141235105271',1,'rion::rion::Rion']]],
-  ['sha256_129',['sha256',['../classrion_1_1crypt_1_1_crypt.html#a97d16eb740552bb3bd5b36b3c1ee5160',1,'rion::crypt::Crypt']]]
+  ['read_5fconfig_128',['read_config',['../namespacerion.html#a06ccd9c4404d29d3cbd121c2ef98e2f2',1,'rion']]],
+  ['read_5fdescription_129',['read_description',['../namespacesetup.html#ac0bdee80c9ae2bb78cb28cb50fb181c6',1,'setup']]],
+  ['remove_130',['remove',['../classrion_1_1rion_1_1_rion.html#ac7db279b9dd89f5e1e7b346b4a53a6db',1,'rion::rion::Rion']]]
 ];

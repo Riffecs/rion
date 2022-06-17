@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['uid_70',['uid',['../classrion_1_1helper_1_1_helper.html#a321ca89adbd2197ed2522e30f65a8c10',1,'rion::helper::Helper']]],
-  ['uninstall_71',['uninstall',['../classrion_1_1rion_1_1_rion.html#afdf42f01cfb5c82de3901d27cefceba3',1,'rion::rion::Rion']]],
-  ['update_72',['update',['../classrion_1_1rion_1_1_rion.html#a285511df035d1f4c81a244f9bef3e498',1,'rion::rion::Rion']]],
-  ['upgrade_73',['upgrade',['../classrion_1_1rion_1_1_rion.html#a61ef6801edfd1704bf38de365e188139',1,'rion::rion::Rion']]],
-  ['user_74',['user',['../classrion_1_1ftp_1_1_conmanager.html#a91a5252170b7247d2d815b2f82111e0f',1,'rion.ftp.Conmanager.user()'],['../classrion_1_1rion_1_1_rion.html#a2f391e6e00ff921aba63b780e44824b6',1,'rion.rion.Rion.user()']]]
+  ['table_70',['table',['../classrion_1_1rion_1_1_rion.html#af5e8cf3e2d5a6f61a7e14fd425cb7b77',1,'rion::rion::Rion']]],
+  ['testsudo_71',['testsudo',['../classrion_1_1helper_1_1_helper.html#a48e3ff9a9b90c2b4330747450f25eb31',1,'rion::helper::Helper']]]
 ];

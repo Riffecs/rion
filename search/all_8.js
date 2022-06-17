@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node_36',['node',['../classrion_1_1rion_1_1_rion.html#ab60045bcd70af6080e00c68bb3e486cd',1,'rion::rion::Rion']]]
+  ['make_5finit_37',['make_init',['../classrion_1_1helper_1_1_helper.html#a9a7185dd590c6e9f016672e6e786a145',1,'rion::helper::Helper']]]
 ];
