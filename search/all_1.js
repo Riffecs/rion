@@ -5,7 +5,5 @@ var searchData=
   ['content_6',['content',['../classrion_1_1rion_1_1_rion.html#ae51aa143e173af2a74401d18d9f85fbc',1,'rion::rion::Rion']]],
   ['courser_7',['courser',['../classrion_1_1database_1_1_database.html#ab2199fdb00fac8d128b9c2c91bb65cab',1,'rion::database::Database']]],
   ['create_5fdatabase_8',['create_database',['../classrion_1_1database_1_1_database.html#a0afd1a9d71b9b1b9b5f18be1bafc993b',1,'rion::database::Database']]],
-  ['create_5ftable_9',['create_table',['../classrion_1_1database_1_1_database.html#a3ec9aa17d2ae457ff34f1439e2d0ceb7',1,'rion::database::Database']]],
-  ['crypt_10',['Crypt',['../classrion_1_1crypt_1_1_crypt.html',1,'rion::crypt']]],
-  ['crypt_2epy_11',['crypt.py',['../crypt_8py.html',1,'']]]
+  ['create_5ftable_9',['create_table',['../classrion_1_1database_1_1_database.html#a3ec9aa17d2ae457ff34f1439e2d0ceb7',1,'rion::database::Database']]]
 ];
