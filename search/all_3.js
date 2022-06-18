@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['error_19',['error',['../classrion_1_1rion_1_1_rion.html#a23681587956b5861da0d10f4bbc2b1eb',1,'rion::rion::Rion']]],
-  ['error_5fmessage_20',['error_message',['../classrion_1_1helper_1_1_helper.html#a81c5acc31c175fdc32ee46841d46bc3b',1,'rion::helper::Helper']]]
+  ['error_21',['error',['../classrion_1_1rion_1_1_rion.html#a23681587956b5861da0d10f4bbc2b1eb',1,'rion::rion::Rion']]],
+  ['error_5fmessage_22',['error_message',['../classrion_1_1errors_1_1_errors.html#aba6eb107bac600a28cb4e704a37bd826',1,'rion::errors::Errors']]],
+  ['errors_23',['Errors',['../classrion_1_1errors_1_1_errors.html',1,'rion::errors']]],
+  ['errors_2epy_24',['errors.py',['../errors_8py.html',1,'']]]
 ];
