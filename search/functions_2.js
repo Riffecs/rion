@@ -5,5 +5,5 @@ var searchData=
   ['delete_5fpackage_113',['delete_package',['../classrion_1_1database_1_1_database.html#a7f005858a504b836fb3eb7ec3dbfbd03',1,'rion::database::Database']]],
   ['dimarray_114',['dimarray',['../classrion_1_1helper_1_1_helper.html#ae04145b0830c3299c103620cb1131ae8',1,'rion::helper::Helper']]],
   ['dlist_115',['dlist',['../classrion_1_1rion_1_1_rion.html#ae84e1975808d10709f9596f359ec34da',1,'rion::rion::Rion']]],
-  ['download_116',['download',['../classrion_1_1ftp_1_1_conmanager.html#aa4ea676a1e3ebf60c796996f527a1e87',1,'rion::ftp::Conmanager']]]
+  ['download_116',['download',['../classrion_1_1ftp_1_1_f_t_p_handler.html#a8053a44a5946a9084d8883c9a23c00dd',1,'rion::ftp::FTPHandler']]]
 ];

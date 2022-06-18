@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['user_159',['user',['../classrion_1_1ftp_1_1_conmanager.html#a91a5252170b7247d2d815b2f82111e0f',1,'rion.ftp.Conmanager.user()'],['../classrion_1_1rion_1_1_rion.html#a2f391e6e00ff921aba63b780e44824b6',1,'rion.rion.Rion.user()']]]
+  ['table_159',['table',['../classrion_1_1rion_1_1_rion.html#af5e8cf3e2d5a6f61a7e14fd425cb7b77',1,'rion::rion::Rion']]]
 ];
