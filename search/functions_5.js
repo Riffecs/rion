@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handler_116',['handler',['../namespacerion.html#a552f5c1db58607961e64ff0c68793b30',1,'rion']]]
+  ['get_5fpackage_117',['get_package',['../classrion_1_1helper_1_1_helper.html#a4c7c46bc07ff2e1f3b5bb2aa069be685',1,'rion::helper::Helper']]]
 ];

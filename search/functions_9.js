@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['name_124',['name',['../classrion_1_1helper_1_1_helper.html#a92092145b047fc31654d47e8bdf53d80',1,'rion::helper::Helper']]],
-  ['name_5ffunction_125',['name_function',['../classrion_1_1helper_1_1_helper.html#a939d027bc90512a3dd53a977fd2cacea',1,'rion::helper::Helper']]]
+  ['manage_5fvenv_125',['manage_venv',['../classrion_1_1rion_1_1_rion.html#af86de4691d165fe6f7a4593c1e67386b',1,'rion::rion::Rion']]]
 ];
