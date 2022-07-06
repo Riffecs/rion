@@ -20,7 +20,7 @@ def def_requirements():
 
 setuptools.setup(
     name="rion",
-    version="v0.1.6",
+    version="v0.2.1",
     description="Package Manager CLI",
     entry_points={"console_scripts": ["rion=rion:handler"]},
     data_files=[("man/man1", ["man/rion.1"])],
@@ -39,7 +39,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],

@@ -5,3 +5,4 @@ disable=
     R0902, # overload cons
     R0912, # to many imports
     W0511, # to do
+    R0915, # To much statement
