@@ -80,10 +80,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a415760c3d84c3dd53bd215e63a1a4f17"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a415760c3d84c3dd53bd215e63a1a4f17">__init__</a> (self, <a class="el" href="classrion_1_1helper_1_1_helper.html#aad87ecb1cbefd6e3a16167ee25637641">start</a>)</td></tr>
 <tr class="separator:a415760c3d84c3dd53bd215e63a1a4f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f0408f765028882ba227ec2c5eca16"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#af2f0408f765028882ba227ec2c5eca16">read_config</a> (self, str modul=&quot;docker&quot;)</td></tr>
-<tr class="separator:af2f0408f765028882ba227ec2c5eca16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939d027bc90512a3dd53a977fd2cacea"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a939d027bc90512a3dd53a977fd2cacea">name_function</a> (self, list[str] content)</td></tr>
-<tr class="separator:a939d027bc90512a3dd53a977fd2cacea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f554d348be12130f64a575db682560"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a14f554d348be12130f64a575db682560">name_function</a> (self, content)</td></tr>
+<tr class="separator:a14f554d348be12130f64a575db682560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac29fef5f6677a59513ad60490d1be544"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#ac29fef5f6677a59513ad60490d1be544">compare_version</a> (self, str version_one, str version_two)</td></tr>
 <tr class="separator:ac29fef5f6677a59513ad60490d1be544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -103,6 +101,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a613574d3313d1abf7ded612873418a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92092145b047fc31654d47e8bdf53d80"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a92092145b047fc31654d47e8bdf53d80">name</a> (str name, str version)</td></tr>
 <tr class="separator:a92092145b047fc31654d47e8bdf53d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3008c664716800bd8c636b22a42815"><td class="memItemLeft" align="right" valign="top">dict&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a3f3008c664716800bd8c636b22a42815">read_config</a> ()</td></tr>
+<tr class="separator:a3f3008c664716800bd8c636b22a42815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0bae84d3ea0a6a96345046af254c4a6"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#ae0bae84d3ea0a6a96345046af254c4a6">sha256</a> (str fname)</td></tr>
 <tr class="separator:ae0bae84d3ea0a6a96345046af254c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a7a07e99ef1502e2fcd4eccc288a024"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrion_1_1helper_1_1_helper.html#a0a7a07e99ef1502e2fcd4eccc288a024">testversion</a> (dict dummy, str idxf)</td></tr>
@@ -334,8 +334,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a939d027bc90512a3dd53a977fd2cacea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a939d027bc90512a3dd53a977fd2cacea">&#9670;&nbsp;</a></span>name_function()</h2>
+<a id="a14f554d348be12130f64a575db682560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f554d348be12130f64a575db682560">&#9670;&nbsp;</a></span>name_function()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,7 +349,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">list[str]&#160;</td>
+          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>content</em>&#160;</td>
         </tr>
         <tr>
@@ -417,30 +417,27 @@ It's really only about the backslash.
 
 </div>
 </div>
-<a id="af2f0408f765028882ba227ec2c5eca16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2f0408f765028882ba227ec2c5eca16">&#9670;&nbsp;</a></span>read_config()</h2>
+<a id="a3f3008c664716800bd8c636b22a42815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f3008c664716800bd8c636b22a42815">&#9670;&nbsp;</a></span>read_config()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"> dict rion.helper.Helper.read_config </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">str&#160;</td>
-          <td class="paramname"><em>modul</em> = <code>&quot;docker&quot;</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <pre class="fragment">Read the config
 </pre> 
