@@ -3,7 +3,8 @@
 """
 simple FTP Handler
 """
-import ftplib
+from ftplib import FTP_TLS
+import ssl
 
 
 class FTPHandler:
@@ -26,7 +27,9 @@ class FTPHandler:
         @param file:
         @return:
         """
-        server = ftplib.FTP()
-        server.connect(self.server, int(self.port))
-        server.login(self.user, self.pwd)
-        server.retrbinary("RETR " + file, open(file, "wb").write)
+        ftp = FTP_TLS()
+        ftp.ssl_version = ssl.PROTOCOL_SSLv23
+        ftp.debugging = 2
+        ftp.connect(self.server, int(self.port))
+        ftp.login(self.user, self.pwd)
+        ftp.retrbinary("RETR " + file, open(file, "wb").write)

@@ -94,37 +94,24 @@ class Helper:
     def name(name: str, version: str) -> str:
         return f"{name}_v{version.replace('v', '')}"
 
-    def read_config(self, modul: str) -> dict:
+    @staticmethod
+    def read_config() -> dict:
         """
         Read the config
         """
-        # create dict
-        user = {"system": "rion"}
-        if modul != "installer":
-            # go to config file
-            path: str = os.getcwd()
-            os.chdir(Path.home())
-            if not os.path.isdir("rion"):
-                self.error.error_message("rion not found")
-            os.chdir("rion")
-            # open file
-            try:
-                with open("rion.conf", encoding="utf8") as runner:
-                    for line in runner.readlines():
-                        # The config has no line breaks
-                        line = line.replace(" ", "")
-                        # Since the config has no descriptions, each line must have a =.
-                        # The Config is not there for decoration but to store values.
-                        if "=" not in line:
-                            self.error.error_message("Rion ist not installed")
-                        # Manipulating the Dictonary through the user configs.
-                        line = line.replace("\n", "")
-                        line = line.split("=")
-                        user[line[0]] = line[1]
-                # go back
-                os.chdir(path)
-            except Exception as error:
-                self.error.error_message(str(error))
+        path = os.getcwd()
+        dummy = []
+        user = {
+            "system": "rion",
+        }
+
+        with open(
+            Helper.os_bindings(f"{Path.home()}/rion/rion.conf"), "r", encoding="utf-8"
+        ) as docker:
+            dummy = [_.rstrip("\n") for _ in docker.readlines()]
+        for runner in dummy:
+            test = runner.split("=")
+            user[test[0]] = test[1]
         return user
 
     @staticmethod
@@ -138,7 +125,7 @@ class Helper:
                 sha256_hash.update(byte_block)
             print(sha256_hash.hexdigest())
 
-    def name_function(self, content: list[str]) -> dict:
+    def name_function(self, content) -> dict:
         """
         Return Name
         """

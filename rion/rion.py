@@ -20,7 +20,7 @@ from rion.helper import Helper
 class Rion:
     """Rion Class"""
 
-    def __init__(self, content: list[str], command: str, start) -> None:
+    def __init__(self, content: list[str], start) -> None:
         self.rion = Database("rion")
         self.content = content
         self.path_user = str(Path.home())
@@ -32,7 +32,6 @@ class Rion:
         self.table = "installed"
         self.identify = "ident"
         self.helper = Helper(start)
-        self.user: dict = Helper(start).read_config(command)
         self.ftpmodule = FTPHandler(
             "139.162.141.181",
             "2121",
@@ -92,35 +91,50 @@ class Rion:
             for runner in outputty:
                 print(str(runner).replace("(", "").replace(")", "").replace("'", ""))
 
-    def install(self, dependency=False, content=None) -> None:
+    def install(self) -> None:
         """
         install packages
         """
-        if content is None:
-            content = self.content
+        # content = [name, version, venv]
+        # User Config
+        user: dict = Helper.read_config()
         path: str = os.getcwd()
-        os.chdir(self.helper.os_bindings(f"{self.path_user}/rion"))
-        if not dependency:
-            if len(content) == 0:
-                self.helper.error.error_message(
-                    "Please provide the name of the package that shall be installed."
-                )
-            os.chdir(content[1])
-            name: str = self.helper.name(content[0], content[2])
-            self.ftpmodule.download(name)
-            with tarfile.open(name, "r:gz") as tar:
-                tar.extractall()
-            os.remove(name)
-            os.chdir(self.helper.os_bindings(f"{self.path_user}/rion"))
-            self.rion.input_value(
-                self.table,
-                f"{name}, {content[0]}, {content[2]}, {content[1]}",
+        content: list = self.content
+        self.ftpmodule = "Hallo"
+        try:
+            self.ftpmodule = FTPHandler(
+                user["server"],
+                user["port"],
+                user["username"],
+                user["password"],
             )
+        except Exception:
+            self.helper.error.error_message(
+                "Missing login credentials. Please enter them in the config file"
+            )
+        os.chdir(self.helper.os_bindings(f"{self.path_user}/rion"))
+        os.chdir("node")
+        if len(content) == 0:
+            self.helper.error.error_message(
+                "Please provide the name of the package that shall be installed."
+            )
+        if len(content) == 2:
+            venv = "venv"
         else:
-            if content is None:
-                self.helper.error.error_message("No Dependence")
-            self.install(dependency=False, content=content)
-            os.chdir(path)
+            venv = content[2]
+        name = content[0]
+        version = content[1]
+        name: str = self.helper.name(name, version)
+        print("name:", name)
+        self.ftpmodule.download(name)
+        with tarfile.open(name, "r:gz") as tar:
+            tar.extractall()
+        os.remove(name)
+        os.chdir(self.helper.os_bindings(f"{self.path_user}/rion"))
+        self.rion.input_value(
+            self.table,
+            f"{name}, {name}, {version}, {venv}",
+        )
 
     def installer(self) -> None:
         """
@@ -164,7 +178,9 @@ class Rion:
         Creates a user in the User Config
         """
         # create Correct list
-        correct: str = string.ascii_letters + string.digits
+        correct: str = (
+            string.ascii_letters + string.digits + "!#$%&'()*+,-./:;<=>?@[]^_`{|}~"
+        )
 
         # Overload
         if len(self.content) == 2:
@@ -176,7 +192,7 @@ class Rion:
             # Reads the password
             password = getpass()
             # Checks if the username is long enough
-        if len(username) >= 5:
+        if len(username) >= 4:
             # Checks if there are any illegal characters in the string
             for runner in username:
                 if runner not in correct:
@@ -200,8 +216,6 @@ class Rion:
             config.write(f"password={password}\n".replace(" ", ""))
         # Goes back to the initial directory
         os.chdir(self.path)
-        # Reload Config
-        self.user = self.helper.read_config("login")
 
     def remove(self) -> None:
         """
@@ -363,9 +377,6 @@ class Rion:
         with open("rion.conf", "a", encoding="utf8") as runner:
             runner.write(str(f"server={ipaddresx}\n"))
             runner.write(str(f"port={port}\n"))
-
-        # Reload Config
-        self.user = self.helper.read_config("server")
 
     def version(self) -> None:
         """
