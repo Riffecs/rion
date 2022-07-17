@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['error_106',['error',['../classrion_1_1helper_1_1_helper.html#adaf9076b1d646128d924fb5344f53122',1,'rion::helper::Helper']]]
+  ['db_5fname_147',['db_name',['../classrion_1_1database_1_1_database.html#afb30bfe33ad13c3179588d17f42851d4',1,'rion::database::Database']]]
 ];

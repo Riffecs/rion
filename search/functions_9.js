@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['os_5fbindings_96',['os_bindings',['../classrion_1_1helper_1_1_helper.html#a204eb0d1b6c11010eaef3596e68de05e',1,'rion::helper::Helper']]]
+  ['manage_5fvenv_126',['manage_venv',['../classrion_1_1rion_1_1_rion.html#af86de4691d165fe6f7a4593c1e67386b',1,'rion::rion::Rion']]]
 ];
