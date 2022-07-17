@@ -91,8 +91,8 @@ class Helper:
         return subprocess.call(command) == 0
 
     @staticmethod
-    def name(name: str, version: str) -> str:
-        return f"{name}-v{version.replace('v', '')}"
+    def name(name: str, version: str, venv: str = "venv") -> str:
+        return f"{name}-v{version.replace('v', '')}-{venv}"
 
     @staticmethod
     def read_config() -> dict:
