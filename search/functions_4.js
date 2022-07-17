@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['freeze_117',['freeze',['../classrion_1_1rion_1_1_rion.html#aa9dccfd870adebfa058c62f3b3d16617',1,'rion::rion::Rion']]]
+  ['get_5fpackage_90',['get_package',['../classrion_1_1helper_1_1_helper.html#a4c7c46bc07ff2e1f3b5bb2aa069be685',1,'rion::helper::Helper']]]
 ];
