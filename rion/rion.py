@@ -129,7 +129,7 @@ class Rion:
         os.chdir(venv)
         name = content[0].replace(" ", "")
         version = content[1].replace(" ", "")
-        name: str = f"{self.helper.name(name, version)}.tar.gz"
+        name: str = f"{self.helper.name(name, version,venv)}.tar.gz"
         print(f"\n\n{name}\n\n")
         print("name:", name)
         self.ftpmodule.download(name)
