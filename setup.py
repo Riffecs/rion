@@ -20,10 +20,10 @@ def def_requirements():
 
 setuptools.setup(
     name="rion",
-    version="v0.2.1",
+    version="v0.2.3",
     description="Package Manager CLI",
     entry_points={"console_scripts": ["rion=rion:handler"]},
-    data_files=[("man/man1", ["man/rion.1"])],
+    data_files=[("man/man1", ["man/rion.7"])],
     long_description=read_description(),
     long_description_content_type="text/markdown",
     license="MIT",
@@ -31,7 +31,7 @@ setuptools.setup(
     url="https://github.com/Riffecs/rion",
     packages=["rion"],
     install_requires=def_requirements(),
-    python_requires=">=3.9",
+    python_requires=">=3.2",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

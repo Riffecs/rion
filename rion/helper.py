@@ -24,7 +24,7 @@ class Helper:
     Helper Class
     """
 
-    def __init__(self, start):
+    def __init__(self, start="None"):
         """
         Konstruktor
         """
@@ -91,8 +91,8 @@ class Helper:
         return subprocess.call(command) == 0
 
     @staticmethod
-    def name(name: str, version: str) -> str:
-        return f"{name}_v{version.replace('v', '')}"
+    def name(name: str, version: str, venv: str = "venv") -> str:
+        return f"{name}-v{version.replace('v', '')}-{venv}"
 
     @staticmethod
     def read_config() -> dict:

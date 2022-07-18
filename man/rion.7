@@ -1,0 +1,32 @@
+.\" Manpage for nuseradd.
+.\" Contact ... to correct errors or typos.
+.TH man 8 "13. July 2022" "1.0" "rion"
+.SH NAME
+RION - RION Installs and Operates Nicely
+.SH SYNOPSIS
+.B rion 
+[command] [package] / [searchterm]
+.SH DESCRIPTION
+.B rion
+- a package manager for PDKs 
+.SH Commands
+The nuseradd does not take any options. However, you can supply username.
+.IP "rion installer"
+	must be run, in order to complete the installation of rion. 
+.IP "rion install [packagename]"
+	installs the package with the name [package]
+.IP "rion search [input]"
+	searches for matches of the [input] in the available packages
+.IP "rion update"
+	Download the latest package database
+.IP "rion upgrade"
+	Compare installed packages with the current database. And install newer package versions.
+.IP "rion remove [package name]"
+	removes the package with [package name]
+	
+
+.SH SEE ALSO
+inor(1)
+.SH BUGS
+- No functioning dependency management was implemented 
+

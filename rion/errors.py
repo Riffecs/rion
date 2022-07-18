@@ -13,7 +13,7 @@ class Errors:
     Short Error Class
     """
 
-    def __init__(self, start) -> None:
+    def __init__(self, start="None") -> None:
         """
         Konstruktor
         """
