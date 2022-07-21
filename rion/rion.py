@@ -267,15 +267,20 @@ class Rion:
         """
         Uninstall Rion
         """
-        # go to user folder
-        os.chdir(self.path_user)
-        # checking whether folder exists or not
-        try:
-            shutil.rmtree("rion")
-        except OSError as error_log:
-            self.helper.error.error_message(
-                f"Rion is not installed\nError: {error_log}"
-            )
+        # Fix Check user input
+        flag : str = self.content[len(self.content) - 1]
+        if flag == "-y" or flag == "--yes":
+            # go to user folder
+            os.chdir(self.path_user)
+            # checking whether folder exists or not
+            try:
+                shutil.rmtree("rion")
+            except OSError as error_log:
+                self.helper.error.error_message(
+                    f"Rion is not installed\nError: {error_log}"
+                )
+        else:
+            self.helper.error.error_message("Please use --yes")
 
     def update(self) -> None:
         """
